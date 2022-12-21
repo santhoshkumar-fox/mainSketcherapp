@@ -28,7 +28,7 @@
     "preset": "react-native"
   },
   "description": "This package is use for dwaing something in canvas with some drawing tools and also it only support ios devies",
-  "main": "components/index",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/santhoshkumar-fox/ApplePKSketch.git"
@@ -41,5 +41,10 @@
   "bugs": {
     "url": "https://github.com/santhoshkumar-fox/ApplePKSketch/issues"
   },
-  "homepage": "https://github.com/santhoshkumar-fox/ApplePKSketch#readme"
+  "homepage": "https://github.com/santhoshkumar-fox/ApplePKSketch#readme",
+  "peerDependencies": {
+    "react": "18.1.0",
+    "react-native": "0.70.6",
+    "react-native-view-shot": "^3.5.0"
+  }
 }
